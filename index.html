@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LA Data Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    
+    <body>
+        <h1 class="main dark-primary-color text-primary-color">Active Businesses</h1>
+        <h6 class="secondary-text-color ">See All Active Businesses or Search by Zip Code</h6>
+        <input id="zips" />
+        <button class="button" onclick={getData()}>Search</button>
+        <div class="row">
+            <div id="result"></div>
+        </div>
+        <div class="info default-primary-color">
+            <h3>
+                This website displays a list of active businesses in a zip code you would prefer.
+                If zip code is not an important factor for your job seeking, you can simply click search 
+                and the full list will be available to you. The businesses listed gives you a slight 
+                description of what they specialize in and where they are located. You can utilize this
+                data to seek a job that you would like to participate in and find a job in an area that
+                best suits you.
+            </h3>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
